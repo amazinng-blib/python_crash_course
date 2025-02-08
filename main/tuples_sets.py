@@ -6,6 +6,8 @@ fruits = ('Apples', 'Oranges', 'Grapes', 'Pears')
 
 # Single value needs trailing .comma
 fruits2 = ('Apples',)
+fruits = fruits + ('Banana',)
+print( fruits)
 
 # Get a value from tuple
 print(fruits[1])
@@ -35,9 +37,12 @@ fruits_set.add('Grapes')
 # Remove from set
 fruits_set.remove('Grapes')
 
+# Add duplicate
+fruits_set.add('Apples')
+
 # Clear set
-fruits_set.clear()
+# fruits_set.clear()
 
 # Delete set
-del fruits_set
+# del fruits_set
 print(fruits_set)
